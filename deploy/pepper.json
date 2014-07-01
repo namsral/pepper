@@ -1,0 +1,122 @@
+{
+    "blacklist": [
+        ".google-analytics.com",
+        ".facebook.com",
+        ".googlesyndication.com",
+        ".doubleclick.net",
+        ".pinterest.com",
+        ".licdn.com",
+        ".linkedin.com",
+        ".onclickads.net",
+        "ads.yahoo.com",
+        ".amazon-adsystem.com"
+    ],
+    "engines": [
+        {
+            "keyword": "pydoc",
+            "title": "www.google.com",
+            "url": "http://www.google.com/search?&ie=UTF-8&oe=UTF-8&q=site:docs.python.org+%s"
+        },
+        {
+            "keyword": "sv",
+            "title": "serverfault.com",
+            "url": "http://serverfault.com/search?q=%s"
+        },
+        {
+            "keyword": "gf",
+            "title": "finance.google.com",
+            "url": "http://finance.google.com/finance?q=%s"
+        },
+        {
+            "keyword": "gd",
+            "title": "www.google.com",
+            "url": "http://www.google.com/dictionary?langpair=en|en&q=%s&hl=en&aq=f"
+        },
+        {
+            "keyword": "gc",
+            "title": "code.google.com",
+            "url": "http://code.google.com/hosting/search?q=%s&projectsearch=Search+Projects"
+        },
+        {
+            "keyword": "gm",
+            "title": "maps.google.com",
+            "url": "http://maps.google.com/?q=%s"
+        },
+        {
+            "keyword": "az",
+            "title": "www.amazon.com",
+            "url": "http://www.amazon.com/exec/obidos/external-search?mode=blended&keyword=%s"
+        },
+        {
+            "keyword": "gi",
+            "title": "images.google.com",
+            "url": "http://images.google.com/images?ie=UTF-8&oe=UTF-8&safe=off&q=%s"
+        },
+        {
+            "keyword": "fm",
+            "title": "www.last.fm",
+            "url": "http://www.last.fm/search?q=%s&from=ac"
+        },
+        {
+            "keyword": "wp",
+            "title": "en.wikipedia.org",
+            "url": "http://en.wikipedia.org/w/wiki.phtml?search=%s&go=Go"
+        },
+        {
+            "keyword": "fl",
+            "title": "flickr.com",
+            "url": "http://flickr.com/search/?q=%s"
+        },
+        {
+            "keyword": "yt",
+            "title": "youtube.com",
+            "url": "http://youtube.com/results?search_query=%s&search=Search"
+        },
+        {
+            "keyword": "g",
+            "title": "www.google.com",
+            "url": "http://www.google.com/search?ie=UTF-8&oe=UTF-8&q=%s"
+        },
+        {
+            "keyword": "d",
+            "title": "duckduckgo.com",
+            "url": "https://duckduckgo.com/?q=%s"
+        },
+        {
+            "keyword": "so",
+            "title": "stackoverflow.com",
+            "url": "http://stackoverflow.com/search?q=%s"
+        },
+        {
+            "keyword": "im",
+            "title": "imdb.com",
+            "url": "http://m.imdb.com/find?s=all&q=%s&x=0&y=0"
+        },
+        {
+            "keyword": "gb",
+            "title": "books.google.com",
+            "url": "http://books.google.com/books?q=%s&btnG=Search+Books"
+        },
+        {
+            "keyword": "red",
+            "title": "search reddit.com",
+            "url": "http://www.reddit.com/search?q=%s"
+        },
+        {
+            "keyword": "wa",
+            "title": "Query Wolfram Alpha",
+            "url": "http://www.wolframalpha.com/input/?i=%s"
+        },
+        {
+            "keyword": "gh",
+            "title": "Search GitHub Code",
+            "url": "http://github.com/search?q=%s"
+        },
+        {
+            "keyword": "mc",
+            "title": "Metacritic Search",
+            "url": "http://www.metacritic.com/search/all/%s/results"
+        }
+    ],
+    "whitelist": []
+}
