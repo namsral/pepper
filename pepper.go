@@ -181,9 +181,9 @@ func isHostAllowed(hostname string) bool {
     return true
 }
 
-// DomainFilterHandler will allow or block request to listed
+// domainFilterHandler will allow or block request to listed
 // domain names.
-func DomainFilterHandler(handler http.Handler) http.Handler {
+func domainFilterHandler(handler http.Handler) http.Handler {
     fn := func(w http.ResponseWriter, r *http.Request) {
         // Accept whitelisted domains
         if isHostAllowed(r.Host) == true {
@@ -290,7 +290,7 @@ func main() {
 
     // Add middleware
     muxWithMiddlewares := webBugHandler(mux)
-    muxWithMiddlewares = DomainFilterHandler(muxWithMiddlewares)
+    muxWithMiddlewares = domainFilterHandler(muxWithMiddlewares)
     muxWithMiddlewares = hijackSearchEngine(muxWithMiddlewares, "http://www.bing.com/search")
 
     log.Printf("Running on http://%s", *httpAddr)
