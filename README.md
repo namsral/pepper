@@ -29,7 +29,8 @@ To build Pepper you must have [Go][] installed.
 ```go
 export GOPATH=$(pwd)/go
 mkdir -p $GOPATH
-go get github.com/namsral/pepper
+git clone http://github.com/namsral/pepper
+cd ./pepper
 go build pepper.go sem.go
 ```
 
